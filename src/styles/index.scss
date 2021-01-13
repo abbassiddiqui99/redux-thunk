@@ -1,0 +1,25 @@
+$theme-colors: (
+  "primary": black,
+  "dark": #111,
+  "danger": #000000,
+);
+// $card-border-width: 0;
+
+$card-border-color: rgba(#000, 0.05);
+
+@import "~bootstrap/scss/bootstrap";
+
+.add-post-icon-custom {
+  background-color: white;
+  color: black;
+  font-weight: 600;
+}
+.read-more-icon-custom {
+  width: 100%;
+  justify-content: center;
+  &:hover {
+    background-color: white;
+    color: black;
+    font-weight: 500;
+  }
+}
